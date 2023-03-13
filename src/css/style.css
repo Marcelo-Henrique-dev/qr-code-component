@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+div.qr-container{
+    margin: 0 auto;
+    max-width: 350px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 17px;
+    box-shadow: 0 0 50px hsl(220, 15%, 55%);
+}
+.qr-container img{
+    width: 100%;
+    border-radius: 17px;
+}
+.qr-container h2{
+    margin: 15px 0 15px 0;
+    color: hsl(218, 44%, 22%);
+}
+.qr-container p{
+    padding: 10px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
